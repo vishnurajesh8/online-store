@@ -263,7 +263,7 @@ def add_variant(request, product_id):
 
         product = Products.objects.get(id=product_id)
 
-        print(request.data)
+       
 
         # Create a variant instance
         variant_data = request.data.get('options')
